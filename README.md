@@ -24,11 +24,21 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Ubuntu Server 20.04
 
 <h2>High-Level Steps</h2>
+<h2> Infrastucvture Setup </h2>
+- Create a Resource Group in Azure to hold resources
+- Setup a Virtual Network (Vnet) and Subnet for VM connectivity
+- Deploy Two Virtual Machines: One Windows One Linux, both in the same VNet/subnet
+- Attach Network Security Groups (NSGs) Default firewall setup for each VM
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+<h2> Networking Activities & Protocols </h2>
+-Test Connectiviity between the VM's by pinging and using other tools. 
+Modify Network Security Groups:Open/close ports and observe changes in network behavior 
+Experiment with Protocols: Try Services (HTTP,RDP,SSH) and see how firewall rules affect access
+
+<h2> Advanced Experiments & Intuition building </h2>
+-Further explore Protocols/Ports: Use different protocols and tools to understand traffic flow
+Monitor and Analyze Traffic: Examine what happens at the firewall and network level
+-Clean up Resources: Stop or delete VM's to prevent unnecessary Azure charges 
 
 <h2>Actions and Observations</h2>
 
