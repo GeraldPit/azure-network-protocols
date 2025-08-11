@@ -42,13 +42,17 @@ Monitor and Analyze Traffic: Examine what happens at the firewall and network le
 
 <h2>Actions and Observations</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+Start both Azure VM's ; (Windows and Linux private IP's 
+<img width="1890" height="881" alt="Screenshot 2025-08-10 at 5 31 22 PM" src="https://github.com/user-attachments/assets/497b9178-c0d3-4f0c-a784-49b6056a5afd" />
+<img width="1890" height="881" alt="Screenshot 2025-08-10 at 5 31 22 PM" src="https://github.com/user-attachments/assets/497b9178-c0d3-4f0c-a784-49b6056a5afd" />
+
+RDP into Windows VM open Wireshark and start capture 
+
+From Windows ping to Linux private IP
+<img width="1910" height="1017" alt="Screenshot 2025-08-06 at 7 45 58 PM" src="https://github.com/user-attachments/assets/41b05ebe-02e2-4506-b22b-8ab2214f5edd" />
+
+<img width="1914" height="1023" alt="Screenshot 2025-08-06 at 9 56 00 PM" src="https://github.com/user-attachments/assets/6f812b2a-c368-45da-8f63-6164f707bf70" />
+
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
